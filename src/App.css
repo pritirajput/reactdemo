@@ -1,0 +1,14 @@
+@import "assests/style.css";
+@import "assests/sass/style.scss";
+@import "assests/sass/layout/_content.scss";
+@import "assests/sass/layout/_footer.scss";
+@import "assests/sass/layout/_header.scss";
+@import "assests/sass/layout/_sidebar.scss";
+@import "assests/sass/libs/_components.scss";
+@import "assests/sass/libs/_global.scss";
+@import "assests/sass/libs/_mixins.scss";
+@import "assests/sass/libs/_normalize.scss";
+@import "assests/sass/libs/_settings.scss";
+@import "assests/sass/libs/bootstrap-grid/_grid.scss";
+@import "assests/sass/libs/bootstrap-grid/_mixins.scss";
+@import "assests/sass/libs/bootstrap-grid/_settings.scss";
