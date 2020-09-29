@@ -1,6 +1,4 @@
-const { Component } = require("react")
-
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
  
 class Live_cameras extends React.Component{
@@ -11,7 +9,7 @@ class Live_cameras extends React.Component{
                 <main class="main-content">
 				    <div class="container">
 					    <div class="breadcrumb">
-						    <Link to='/'>Home</Link>
+						     <Link to='/'>Home</Link>
 						    <span>Live cameras</span>
 					    </div>
 				    </div>
@@ -57,28 +55,28 @@ class Live_cameras extends React.Component{
 						    <div class="row">
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-1.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-1.jpg" alt=""/></figure>
 									    <h3 class="location">New York</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-2.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-2.jpg" alt=""/></figure>
 									    <h3 class="location">Los Angeles</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-3.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-3.jpg" alt=""/></figure>
 									    <h3 class="location">Chicago</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-4.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-4.jpg" alt=""/></figure>
 									    <h3 class="location">London</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
@@ -87,28 +85,28 @@ class Live_cameras extends React.Component{
 						    <div class="row">
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-5.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-5.jpg" alt=""/></figure>
 									    <h3 class="location">New York</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-6.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-6.jpg" alt=""/></figure>
 									    <h3 class="location">Los Angeles</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-7.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-7.jpg" alt=""/></figure>
 									    <h3 class="location">Chicago</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>
 							    </div>
 							    <div class="col-md-3 col-sm-6">
 								    <div class="live-camera">
-									    <figure class="live-camera-cover"><img src="public/assests/images/live-camera-8.jpg" alt=""/></figure>
+									    <figure class="live-camera-cover"><img src="Container/images/live-camera-8.jpg" alt=""/></figure>
 									    <h3 class="location">London</h3>
 									    <small class="date">8 oct, 8:00AM</small>
 								    </div>

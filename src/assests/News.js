@@ -1,10 +1,10 @@
-import React,{component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 class News extends React.Component{
     render(){
-        React(
-            <div>
+        return (
+		    <div>
 
                 <main class="main-content">
 				    <div class="container">
@@ -20,21 +20,21 @@ class News extends React.Component{
 							    <div class="content col-md-8">
 								    <div class="post">
 									    <h2 class="entry-title">Nemo enim ipsam voluptatem quia voluptas</h2>
-									    <div class="featured-image"><img src="public/assests/images/featured-image-1.jpg" alt=""/></div>
+									    <div class="featured-image"><img src="Container/images/featured-image-1.jpg" alt=""/></div>
 									    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nulla rem dolores unde et cum illum odio, enim quis odit eveniet quaerat non libero, consequatur voluptatem harum ad veritatis necessitatibus.</p>
 									    <a href="single.html" class="button">Read more</a>
 								    </div>
 
 								    <div class="post">
 									    <h2 class="entry-title">Nemo enim ipsam voluptatem quia voluptas</h2>
-									    <div class="featured-image"><img src="public/assests/images/featured-image-2.jpg" alt=""/></div>
+									    <div class="featured-image"><img src="Container/images/featured-image-2.jpg" alt=""/></div>
 									    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nulla rem dolores unde et cum illum odio, enim quis odit eveniet quaerat non libero, consequatur voluptatem harum ad veritatis necessitatibus.</p>
 									    <a href="single.html" class="button">Read more</a>
 								    </div>
 
 								    <div class="post">
 									    <h2 class="entry-title">Nemo enim ipsam voluptatem quia voluptas</h2>
-									    <div class="featured-image"><img src="public/assests/images/featured-image-3.jpg" alt=""/></div>
+									    <div class="featured-image"><img src="Container/images/featured-image-3.jpg" alt=""/></div>
 									    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nulla rem dolores unde et cum illum odio, enim quis odit eveniet quaerat non libero, consequatur voluptatem harum ad veritatis necessitatibus.</p>
 									    <a href="single.html" class="button">Read more</a>
 								    </div>
@@ -43,35 +43,35 @@ class News extends React.Component{
 								    <div class="widget">
 									    <h3 class="widget-title">Hot News</h3>
 									    <ul class="arrow-list">
-										    <li><a href="#">Accusamus dignissimos</a></li>
-										    <li><a href="#">Ducimus praesentium</a></li>
-										    <li><a href="#">Voluptatum deleniti corrupti</a></li>
-										    <li><a href="#">Wuos dolores excepturi sint</a></li>
-										    <li><a href="#">Occaecati provident dolor</a></li>
+										    <li>Accusamus dignissimos</li>
+										    <li>Ducimus praesentium</li>
+										    <li>Voluptatum deleniti corrupti</li>
+										    <li>Wuos dolores excepturi sint</li>
+										    <li>Occaecati provident dolor</li>
 									    </ul>
 								    </div>
 
 								    <div class="widget">
 									    <h3 class="widget-title">Categories</h3>
 									    <ul class="arrow-list">
-										    <li><a href="#">Nemo enim ipsam</a></li>
-										    <li><a href="#">Voluptatem voluptas</a></li>
-										    <li><a href="#">Aspernatur aut odit</a></li>
-										    <li><a href="#">Consequuntur magni</a></li>
-										    <li><a href="#">Dolores ratione</a></li>
-										    <li><a href="#">Voluptatem nesciunt</a></li>
-										    <li><a href="#">Neque porro quisquam</a></li>
-										    <li><a href="#">Dolorem ipsum quia</a></li>
+										    <li>Nemo enim ipsam</li>
+										    <li>Voluptatem voluptas</li>
+										    <li>Aspernatur aut odit</li>
+										    <li>Consequuntur magni</li>
+										    <li>Dolores ratione</li>
+										    <li>Voluptatem nesciunt</li>
+										    <li>Neque porro quisquam</li>
+										    <li>Dolorem ipsum quia</li>
 									    </ul>
 								    </div>
 
 								    <div class="widget top-rated">
 									    <h3 class="widget-title">Top rated posts</h3>
 									    <ul>
-										    <li><h3 class="entry-title"><a href="#">Doloremque laudantium lorem</a></h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
-										    <li><h3 class="entry-title"><a href="#">Doloremque laudantium lorem</a></h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
-										    <li><h3 class="entry-title"><a href="#">Doloremque laudantium lorem</a></h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
-										    <li><h3 class="entry-title"><a href="#">Doloremque laudantium lorem</a></h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
+										    <li><h3 class="entry-title">Doloremque laudantium lorem</h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
+										    <li><h3 class="entry-title">Doloremque laudantium lorem</h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
+										    <li><h3 class="entry-title">Doloremque laudantium lorem</h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
+										    <li><h3 class="entry-title">Doloremque laudantium lorem</h3><div class="rating"><strong>5.5</strong> (759 rates)</div></li>
 									    </ul>
 								    </div>
 							    </div>

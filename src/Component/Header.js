@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component{
@@ -8,25 +8,23 @@ class Header extends React.Component{
                  
                 <div class="site-header">
 				    <div class="container">
-					    <a class="branding"> 
-						    <Link to='/assests/Home'>
-							    <img src="public/assests/images/logo.png" alt="" class="logo"/>
-						        <div class="logo-type">
-							       <h1 class="site-title">Company name</h1>
-							       <small class="site-description">tagline goes here</small>
-						        </div>
-							</Link>
-					    </a>
+					    <Link to="/"> 
+						    <img src="Container/images/logo.png" alt="" class="logo"/>
+						    <div class="logo-type">
+							    <h1 class="site-title">Company name</h1>
+							    <small class="site-description">tagline goes here</small>
+						    </div>
+						</Link>
 
 					       {/*!-- Default snippet for navigation -->*/}
 					    <div class="main-navigation">
 						    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						    <ul class="menu">
 							   <li class="menu-item current-menu-item"><Link to='/'>Home</Link></li>
-							   <li class="menu-item"><Link to='/'>News</Link></li>
-							   <li class="menu-item"><Link to='/'>Live_cameras</Link></li>
-							   <li class="menu-item"><Link to='/'>Photos</Link></li>
-							   <li class="menu-item"><Link to='/'>Contact</Link></li>
+							   <li class="menu-item"><Link to='/news'>News</Link></li>
+							   <li class="menu-item"><Link to='/livecam'>Livecameras</Link></li>
+							   <li class="menu-item"><Link to='/photos'>Photos</Link></li>
+							   <li class="menu-item"><Link to='/contact'>Contact</Link></li>
 						    </ul> {/*<!-- .menu -->*/}
 					    </div> {/*<!-- .main-navigation -->*/}
 
@@ -35,7 +33,7 @@ class Header extends React.Component{
 				    </div>
 			    </div> {/*<!-- .site-header -->*/}
 
-			    <div class="hero" data-bg-image="public/assests/images/banner.png">
+			    <div class="hero" data-bg-image="Container/images/banner.png">
 				    <div class="container">
 					    <form action="#" class="find-location">
 						    <input type="text" placeholder="Find your location..."/>
@@ -57,12 +55,12 @@ class Header extends React.Component{
 								    <div class="degree">
 									   <div class="num">23<sup>o</sup>C</div>
 									    <div class="forecast-icon">
-										   <img src="public/assests/images/icons/icon-1.svg" alt="" width='90'/>
+										   <img src="Container/images/icons/icon-1.svg" alt="" width='90'/>
 									    </div>	
 								    </div>
-								    <span><img src="public/assests/images/icon-umberella.png" alt=""/>20%</span>
-								    <span><img src="public/assests/images/icon-wind.png" alt=""/>18km/h</span>
-								    <span><img src="public/assests/images/icon-compass.png" alt=""/>East</span>
+								    <span><img src="Container/images/icon-umberella.png" alt=""/>20%</span>
+								    <span><img src="Containeri/mages/icon-wind.png" alt=""/>18km/h</span>
+								    <span><img src="Container/images/icon-compass.png" alt=""/>East</span>
 							    </div>
 						    </div>
 						    <div class="forecast">
@@ -71,7 +69,7 @@ class Header extends React.Component{
 							    </div> {/*<!-- .forecast-header -->*/}
 							    <div class="forecast-content">
 								    <div class="forecast-icon">
-									    <img src="public/assests/images/icons/icon-3.svg" alt="" width='48'/>
+									    <img src="Container/images/icons/icon-3.svg" alt="" width='48'/>
 								    </div>
 								    <div class="degree">23<sup>o</sup>C</div>
 								        <small>18<sup>o</sup></small>
@@ -83,7 +81,7 @@ class Header extends React.Component{
 							        </div> {/*<!-- .forecast-header -->*/}
 							    <div class="forecast-content">
 								    <div class="forecast-icon">
-									    <img src="public/assests/images/icons/icon-5.svg" alt="" width='48'/>
+									    <img src="Container/images/icons/icon-5.svg" alt="" width='48'/>
 								    </div>
 								    <div class="degree">23<sup>o</sup>C</div>
 								    <small>18<sup>o</sup></small>
@@ -95,7 +93,7 @@ class Header extends React.Component{
 							    </div> {/*<!-- .forecast-header -->*/}
 							    <div class="forecast-content">
 								    <div class="forecast-icon">
-									    <img src="public/assests/images/icons/icon-7.svg" alt="" width='48'/>
+									    <img src="Container/images/icons/icon-7.svg" alt="" width='48'/>
 								    </div>
 								    <div class="degree">23<sup>o</sup>C</div>
 								    <small>18<sup>o</sup></small>
@@ -107,7 +105,7 @@ class Header extends React.Component{
 							    </div> {/*<!-- .forecast-header -->*/}
 							    <div class="forecast-content">
 								    <div class="forecast-icon">
-									    <img src="public/assests/images/icons/icon-12.svg" alt="" width='48'/>
+									    <img src="Container/images/icons/icon-12.svg" alt="" width='48'/>
 								    </div>
 								    <div class="degree">23<sup>o</sup>C</div>
 								        <small>18<sup>o</sup></small>
@@ -119,7 +117,7 @@ class Header extends React.Component{
 							        </div> {/*<!-- .forecast-header -->*/}
 							        <div class="forecast-content">
 								        <div class="forecast-icon">
-									        <img src="public/assests/images/icons/icon-13.svg" alt="" width='48'/>
+									        <img src="Container/images/icons/icon-13.svg" alt="" width='48'/>
 								        </div>
 								        <div class="degree">23<sup>o</sup>C</div>
 								        <small>18<sup>o</sup></small>
@@ -131,7 +129,7 @@ class Header extends React.Component{
 							        </div> {/*<!-- .forecast-header -->*/}
 							        <div class="forecast-content">
 								        <div class="forecast-icon">
-									        <img src="public/assests/images/icons/icon-14.svg" alt="" width='48'/>
+									        <img src="Containeri/mages/icons/icon-14.svg" alt="" width='48'/>
 								        </div>
 								        <div class="degree">23<sup>o</sup>C</div>
 								        <small>18<sup>o</sup></small>

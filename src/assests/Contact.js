@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 class Contact extends React.Component{
@@ -21,13 +21,13 @@ class Contact extends React.Component{
 								    <div class="map" data-latitude="-6.897789" data-longitude="107.621735"></div>
 								    <div class="contact-info">
 									    <address>
-										    <img src="public/assests/images/icon-marker.png" alt=""/>
+										    <img src="Container/images/icon-marker.png" alt=""/>
 										    <p>Company Name INC. <br/>
 										     2803 Avenue Street, Los Angeles</p>
 									    </address>
 									
-									    <a href="#"><img src="public/assests/images/icon-phone.png" alt=""/>+1 800 314 235</a>
-									    <a href="#"><img src="public/assests/images/icon-envelope.png" alt=""/>contact@companyname.com</a>
+									    <p><img src="Container/images/icon-phone.png" alt=""/>+1 800 314 235</p>
+									    <p><img src="Container/images/icon-envelope.png" alt=""/>contact@companyname.com</p>
 								    </div>
 							    </div>
 						    </div>

@@ -1,11 +1,11 @@
-import React,{Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 
 class Footer extends React.Component{
     render(){
         return(
             <div>
-                /*site footer*/
+                
                 <footer class="site-footer">
 				   <div class="container">
 					    <div class="row">
